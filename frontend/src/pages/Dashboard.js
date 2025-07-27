@@ -5,7 +5,7 @@ import { AuthContext } from '../contexts/AuthContext';
 
 const Dashboard = () => {
   const { user, logout } = useContext(AuthContext);
-    if (loading) return <p>Loading…</p>;
+    // if (loading) return <p>Loading…</p>;
   if (!user) {
     return <p>Please log in to access the dashboard.</p>;
   }
