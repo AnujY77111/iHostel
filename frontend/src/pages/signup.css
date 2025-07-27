@@ -1,0 +1,21 @@
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color:green
+}
+
+.signup-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-container input, .signup-container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}

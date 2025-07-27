@@ -1,0 +1,40 @@
+.TopBox {
+  background-color: red; /* Red background for the header */
+  padding: 20px; /* Add some padding for spacing */
+  text-align: center; /* Center-align the content */
+  border:4px;
+  border-color: black;
+  border-radius: 1%;
+}
+
+.TopBox h1 {
+  color: color-mix(in hsl shorter hue, gold 40%, silver 60%); /* White text for the heading */
+  margin: 0; /* Remove margin around the heading */
+  font-size: 2rem; /* Adjust heading font size */
+}
+
+.TopBox ul {
+    background-color: silver;
+  list-style: none; /* Remove bullets from the list */
+  padding: 0; /* Remove padding */
+  margin: 10px 0 0; /* Add spacing between heading and links */
+  
+}
+
+.TopBox ul li {
+  display: inline; /* Display list items inline */
+  margin: 0 15px; /* Add spacing between the links */
+}
+
+.TopBox ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* White text color for links */
+  font-weight: bold; /* Make the links bold */
+  font-size: 1.2rem; /* Adjust font size */
+}
+
+.TopBox ul li a:hover {
+  color: yellow; /* Change text color to yellow on hover */
+  border:2px;
+  border-color: blue;
+}
